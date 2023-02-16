@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://kit.fontawesome.com/580fa650f9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="h-screen flex flex-col justify-center">
+    <section class="bg-indigo-300  w-8/12 h-98 mx-auto px-10 py-5 rounded-lg">
+        <h1 class="bg-slate-200 text-center font-4xl uppercase rounded py-2 font-bold">New Text Editor</h1>
+        <div class="border-b-2 border-indigo-500 flex justify-between p-3">
+            <div class=" w-4/12">
+                <i class="fa-solid fa-bold p-1" id="boldIcon"></i>
+                <i class="fa-solid fa-italic p-1" id="italicIcon"></i>
+                <i class="fa-solid fa-underline p-1" id="underlineIcon"></i>
+            </div>
+            <div class="w-4/12 text-center">
+                <i class="fa-solid fa-align-left p-1" id="textLeftIcon"></i>
+                <i class="fa-solid fa-align-center p-1" id="textCenterIcon"></i>
+                <i class="fa-solid fa-align-right p-1" id="textWriteIcon"></i>
+                <i class="fa-solid fa-align-justify p-1" id="textJustifyIcon"></i>
+            </div>
+            <div class="flex items-center justify-end  w-4/12">
+                <label for="">px
+                <input class="w-8 h-5 rounded mr-3 p-1" id="px-set" type="number"></label>
+                <input type="color" name="" id="colorInput">
+
+            </div>
+        </div>
+        <div>
+            <textarea class="w-full h-96 rounded mt-5 p-2" name="" id="note" ></textarea>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
